@@ -1,0 +1,26 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cnpm": "^6.1.1",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon --watch src -e ts --exec ts-node ./src/index.ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethere/ts.note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethere/ts.note/issues"
+  },
+  "homepage": "https://github.com/ethere/ts.note#readme"
+}
