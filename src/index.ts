@@ -1,6 +1,7 @@
-let say = 'hello'
+function add(a:number,b:number):number{
+    return a + b
+}
 
-console.log(say);
-console.log('haha')
-console.log('huifang')
-console.log('test')
+const result = add(1,2);
+
+let name = '123';
